@@ -1,0 +1,48 @@
+= NGINX
+
+== Web server
+https://docs.nginx.com/nginx/admin-guide/web-server/web-server/[nginx as a web server]
+
+== Load balancer
+
+https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/[Http load balancer]
+
+image:nginx_load_balancer.svg[alt]
+
+== Proxying HTTP Traffic to a Group of Servers
+=== Proxying HTTP Traffic to gateway ws
+```
+http {
+    upstream services {
+        server localhost:8094;
+    }
+
+    location /services {
+        proxy_pass https://services;
+    }
+}
+```
+=== Proxying HTTP Traffic to deveryloc
+```
+http {
+    upstream deveryloc {
+        server localhost:8443;
+    }
+    
+    location /deveryloc {
+        proxy_pass https://deveryloc;
+    }
+}
+```
+=== Proxying HTTP Traffic to now
+```
+http {
+    upstream now {
+        server localhost:3009;
+    }
+    
+    location /dloc-now-ui {
+        proxy_pass https://now;
+    }
+}
+```
