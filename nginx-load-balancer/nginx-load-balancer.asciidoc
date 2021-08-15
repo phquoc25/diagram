@@ -3,6 +3,48 @@
 == Web server
 https://docs.nginx.com/nginx/admin-guide/web-server/web-server/[nginx as a web server]
 
+=== Nginx
+```
+server {
+    listen       443 ssl;
+    server_name  localhost;
+    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+    ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers         HIGH:!aNULL:!MD5;
+
+    #access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        root   /usr/share/nginx/html;
+        index  index.html index.htm;
+    }
+}
+```
+
+=== dloc-now-ui
+```
+server {
+    listen       3009 ssl;
+    server_name  localhost;
+    ssl_certificate /etc/ssl/certs/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/ssl/private/nginx-selfsigned.key;
+    ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;
+    ssl_ciphers         HIGH:!aNULL:!MD5;
+
+    #access_log  /var/log/nginx/host.access.log  main;
+
+    location / {
+        root   /usr/share/nginx/html;
+        index  index.html index.htm;
+    }
+
+    location /assets/now-images {
+        root  /usr/share/nginx/html/dloc-now-ui;
+    }
+}
+```
+
 == Load balancer
 
 https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/[Http load balancer]
