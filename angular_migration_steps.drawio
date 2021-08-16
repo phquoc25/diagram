@@ -19,7 +19,7 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="C5RBs43oDa-KdzZeNtuy" name="deveryloc-ihm-angular">
+    <diagram id="C5RBs43oDa-KdzZeNtuy" name="base-app">
         <mxGraphModel dx="1046" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -60,7 +60,7 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="em2d5n0n_d6tPBf-flua" name="ngx-dloc-now">
+    <diagram id="em2d5n0n_d6tPBf-flua" name="lib">
         <mxGraphModel dx="1046" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-0"/>
@@ -80,10 +80,10 @@
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-5" value="HEADER" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
                     <mxGeometry x="120" y="20" width="930" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="ZxGupJ8abZUJEk-nN8NS-6" value="Now" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
+                <mxCell id="ZxGupJ8abZUJEk-nN8NS-6" value="lib1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
                     <mxGeometry x="110" y="90" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="ZxGupJ8abZUJEk-nN8NS-7" value="History" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
+                <mxCell id="ZxGupJ8abZUJEk-nN8NS-7" value="lib2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
                     <mxGeometry x="170" y="90" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-8" value="Map toolbar" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
@@ -92,7 +92,7 @@
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-9" value="P&amp;amp;E table" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
                     <mxGeometry x="290" y="650" width="710" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="ZxGupJ8abZUJEk-nN8NS-11" value="lib-dloc-now" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
+                <mxCell id="ZxGupJ8abZUJEk-nN8NS-11" value="lib-lib1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ZxGupJ8abZUJEk-nN8NS-1" vertex="1">
                     <mxGeometry x="110" y="130" width="950" height="230" as="geometry"/>
                 </mxCell>
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-12" value="" style="endArrow=classic;html=1;exitX=0.491;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=15;" parent="ZxGupJ8abZUJEk-nN8NS-1" source="ZxGupJ8abZUJEk-nN8NS-11" target="ZxGupJ8abZUJEk-nN8NS-10" edge="1">
@@ -120,7 +120,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Sljq6ykpyR8NYzbcy_Ns" name="Breaking Tasks">
-        <mxGraphModel dx="1046" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1046" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="5XensVxKjaYNkgrCmVre-0"/>
                 <mxCell id="5XensVxKjaYNkgrCmVre-1" parent="5XensVxKjaYNkgrCmVre-0"/>
