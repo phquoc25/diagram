@@ -19,22 +19,22 @@
                 <mxCell id="aIxgGzusKuNAfzJENsS--1" value="Nginx" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="248" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIxgGzusKuNAfzJENsS--2" target="14">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aIxgGzusKuNAfzJENsS--2" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aIxgGzusKuNAfzJENsS--2" target="16">
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aIxgGzusKuNAfzJENsS--2" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aIxgGzusKuNAfzJENsS--2" target="15">
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aIxgGzusKuNAfzJENsS--2" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="aIxgGzusKuNAfzJENsS--2" value="Gateway&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="483" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="deveryloc&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                <mxCell id="2" value="app&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="478" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="now&lt;br&gt;Nginx" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+                <mxCell id="3" value="angular-ui&lt;br&gt;Nginx" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="483" y="530" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7" target="aIxgGzusKuNAfzJENsS--1" edge="1">
@@ -43,25 +43,25 @@
                 <mxCell id="7" value="browser" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="10" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="/services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+                <mxCell id="10" value="/services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
                     <mxGeometry x="312.68" y="219.68" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="/dloc-now-ui" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+                <mxCell id="11" value="/angular-ui" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
                     <mxGeometry x="323" y="560" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="https://localhost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+                <mxCell id="12" value="https://localhost" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
                     <mxGeometry x="100" y="360" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="/deveryloc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+                <mxCell id="13" value="/app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
                     <mxGeometry x="310" y="340" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="mobile-ws&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                <mxCell id="14" value="ws-a&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="680" y="100" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="history-ws&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                <mxCell id="15" value="ws-b&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="680" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="alert-ws&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                <mxCell id="16" value="ws-c&lt;br&gt;Tomcat" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="680" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>

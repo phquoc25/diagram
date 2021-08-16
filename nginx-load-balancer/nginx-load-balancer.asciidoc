@@ -22,7 +22,7 @@ server {
 }
 ```
 
-=== dloc-now-ui
+=== angular-ui
 ```
 server {
     listen       3009 ssl;
@@ -39,8 +39,8 @@ server {
         index  index.html index.htm;
     }
 
-    location /assets/now-images {
-        root  /usr/share/nginx/html/dloc-now-ui;
+    location /assets/angular-ui-images {
+        root  /usr/share/nginx/html/angular-ui;
     }
 }
 ```
@@ -64,27 +64,27 @@ http {
     }
 }
 ```
-=== Proxying HTTP Traffic to deveryloc
+=== Proxying HTTP Traffic to app
 ```
 http {
-    upstream deveryloc {
+    upstream app {
         server localhost:8443;
     }
     
-    location /deveryloc {
-        proxy_pass https://deveryloc;
+    location /app {
+        proxy_pass https://app;
     }
 }
 ```
 === Proxying HTTP Traffic to now
 ```
 http {
-    upstream now {
+    upstream angular-ui {
         server localhost:3009;
     }
     
-    location /dloc-now-ui {
-        proxy_pass https://now;
+    location /angular-ui {
+        proxy_pass https://angular-ui;
     }
 }
 ```
