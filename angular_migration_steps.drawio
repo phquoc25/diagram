@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="4">
     <diagram id="qDiZcjX9I8KFR4Hh538K" name="Agenda">
-        <mxGraphModel dx="1046" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="_wlPZeOwsJj4ic3D8fgZ-0"/>
                 <mxCell id="_wlPZeOwsJj4ic3D8fgZ-1" parent="_wlPZeOwsJj4ic3D8fgZ-0"/>
@@ -20,7 +20,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="C5RBs43oDa-KdzZeNtuy" name="base-app">
-        <mxGraphModel dx="1046" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
                 <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -61,7 +61,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="em2d5n0n_d6tPBf-flua" name="lib">
-        <mxGraphModel dx="1046" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-0"/>
                 <mxCell id="ZxGupJ8abZUJEk-nN8NS-1" parent="ZxGupJ8abZUJEk-nN8NS-0"/>
@@ -120,7 +120,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Sljq6ykpyR8NYzbcy_Ns" name="Breaking Tasks">
-        <mxGraphModel dx="1046" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1130" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="5XensVxKjaYNkgrCmVre-0"/>
                 <mxCell id="5XensVxKjaYNkgrCmVre-1" parent="5XensVxKjaYNkgrCmVre-0"/>
